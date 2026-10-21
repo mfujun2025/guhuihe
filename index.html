@@ -135,6 +135,17 @@ button{font-family:inherit;cursor:pointer}
 
 /* ===== 关于 / CTA ===== */
 .about-sec{background:var(--bg-2);border-top:1px solid var(--line)}
+.sale-card{display:flex;gap:18px;align-items:flex-start;background:linear-gradient(150deg,#FFFDF6,#F7F0DC);border:1px solid rgba(184,147,74,.45);border-radius:var(--r);padding:24px 26px;margin-bottom:18px;box-shadow:var(--shadow)}
+.sale-ico{width:46px;height:46px;flex:none;border-radius:12px;display:flex;align-items:center;justify-content:center;background:var(--gold);color:#FFFDF6}
+.sale-ico svg{width:22px;height:22px}
+.sale-body{flex:1;min-width:0}
+.sale-tag{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.1em;color:#8A6427;background:rgba(184,147,74,.16);border:1px solid rgba(184,147,74,.4);padding:3px 10px;border-radius:99px;margin-bottom:10px}
+.sale-body h3{font-family:var(--serif);font-size:19px;font-weight:900;margin-bottom:6px}
+.sale-body p{font-size:13.5px;color:#5E5233;margin-bottom:12px}
+.sale-body p .mail{color:var(--gold,#B8934A);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.sale-domains{display:flex;flex-wrap:wrap;gap:8px}
+.sale-domains span{font-size:12px;font-weight:600;color:#6B5226;background:#FFFDF6;border:1px dashed rgba(184,147,74,.55);padding:4px 12px;border-radius:99px}
+@media(max-width:560px){.sale-card{flex-direction:column;padding:20px}}
 .about-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .about-item{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:22px}
 .about-item .ico{width:40px;height:40px;border-radius:11px;display:flex;align-items:center;justify-content:center;background:var(--bg-2);color:var(--teal-deep);margin-bottom:12px}
@@ -404,6 +415,18 @@ a:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
     <div class="sec-head">
       <div class="kicker">ABOUT</div>
       <h2>关于骨灰盒.cn</h2>
+    </div>
+    <div class="sale-card">
+      <div class="sale-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 8l-9-5-9 5v8l9 5 9-5z"/><path d="M3 8l9 5 9-5"/><path d="M12 13v8"/></svg></div>
+      <div class="sale-body">
+        <span class="sale-tag">域名出售</span>
+        <h3>骨灰盒.cn · 骨灰盒.中国</h3>
+        <p>本站域名现对外出售，双域名同属一位持有人，中文域名直达、记忆成本低，适合殡葬服务、殡葬用品电商及相关行业品牌使用。有意者请联系：<a class="mail" href="mailto:mfujun@agent.qq.com">mfujun@agent.qq.com</a></p>
+        <div class="sale-domains">
+          <span>骨灰盒.cn（xn--0nx29kk17a.cn）</span>
+          <span>骨灰盒.中国（xn--0nx29kk17a.xn--fiqs8s）</span>
+        </div>
+      </div>
     </div>
     <div class="about-grid">
       <div class="about-item">
