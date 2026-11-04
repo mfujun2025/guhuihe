@@ -4,6 +4,11 @@ import re, os
 
 base = r"C:\Users\Huawei\Doubao\chats\2026-10-21\new-chat-5\guhuihe\news"
 files = [
+    "guhuihe-zenme-xuan-2026.html",
+    "guhuihe-tiqian-goumai-2026.html",
+    "guhuihe-kuaidi-jigu-2026.html",
+    "guhuihe-hongmu-heitian-2026.html",
+    "guhuihe-zhuanggu-2026.html",
     "guhuihe-kejiiejie-2026.html",
     "guhuihe-jiating-baifang-2026.html",
     "guhuihe-suizang-pin-2026.html",
