@@ -4,31 +4,11 @@ import re, os
 
 base = r"C:\Users\Huawei\Doubao\chats\2026-10-21\new-chat-5\guhuihe\news"
 files = [
-    "guhuihe-zenme-xuan-2026.html",
-    "guhuihe-tiqian-goumai-2026.html",
-    "guhuihe-kuaidi-jigu-2026.html",
-    "guhuihe-hongmu-heitian-2026.html",
-    "guhuihe-zhuanggu-2026.html",
-    "guhuihe-kejiiejie-2026.html",
-    "guhuihe-jiating-baifang-2026.html",
-    "guhuihe-suizang-pin-2026.html",
-    "guhuihe-cixiang-2026.html",
-    "guhuihe-shougong-jizhi-2026.html",
-    "guhuihe-yidi-anzang-2026.html",
-    "guhuihe-tuoyun-2026.html",
-    "guhuihe-fangchao-2026.html",
-    "guhuihe-guojia-biaozhun-2026.html",
-    "guhuihe-gewei-xuanze-2026.html",
-    "guhuihe-chicun-guige-2026.html",
-    "guhuihe-pinpai-xuangou-2026.html",
-    "guhuihe-wangshang-goumai-2026.html",
-    "guhuihe-baocun-nianxian-2026.html",
-    "guhuihe-anfang-liucheng-2026.html",
-    "guhuihe-xiedai-jiaotong-2026.html",
-    "guhuihe-sunhuai-chuli-2026.html",
-    "guhuihe-shuangren-hezang-2026.html",
-    "guhuihe-yanse-jiangjiu-2026.html",
-    "guhuihe-kezi-2026.html",
+    "guhuihe-huimin-buzhu-2026.html",
+    "guhuihe-zidai-zhengce-2026.html",
+    "guhuihe-jicun-daoqi-2026.html",
+    "guhuihe-mifengxing-2026.html",
+    "guhuihe-weiquan-2026.html",
 ]
 for f in files:
     p = os.path.join(base, f)
