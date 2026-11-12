@@ -4,11 +4,11 @@ import re, os
 
 base = r"C:\Users\Huawei\Doubao\chats\2026-10-21\new-chat-5\guhuihe\news"
 files = [
-    "guhuihe-huimin-buzhu-2026.html",
-    "guhuihe-zidai-zhengce-2026.html",
-    "guhuihe-jicun-daoqi-2026.html",
-    "guhuihe-mifengxing-2026.html",
-    "guhuihe-weiquan-2026.html",
+    "guhuihe-kuanshi-2026.html",
+    "guhuihe-xiazang-shijian-2026.html",
+    "guhuihe-huohua-liucheng-2026.html",
+    "guhuihe-yitiaolong-2026.html",
+    "guhuihe-tuan-yuyi-2026.html",
 ]
 for f in files:
     p = os.path.join(base, f)
